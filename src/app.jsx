@@ -35,7 +35,6 @@ export default function App(){
       </header>
 
       <main className="px-6 py-10 max-w-6xl mx-auto relative">
-        <ThreeHero />
         <div className="relative z-20">
           <TerminalWindow />
           <section id="projects" className="mt-12">
