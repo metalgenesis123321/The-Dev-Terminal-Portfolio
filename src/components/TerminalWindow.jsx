@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 
 const lines = [
-  { cmd: 'whoami', result: 'Full-stack ML Engineer' },
+  { cmd: 'whoami', result: 'Shravan Swaminathan — Aspiring Software Developer' },
   { cmd: 'about', result: 'I build production ML systems, cloud infra, and polished front-ends.' },
   { cmd: 'skills --top', result: 'Python · React · AWS · TensorFlow · Three.js' }
 ]
