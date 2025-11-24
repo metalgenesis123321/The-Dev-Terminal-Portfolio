@@ -25,9 +25,9 @@ Status: Awake, probably over-caffeinated
 ### About
 ```
 > run ./about_me.sh
-Hi there — I’m a developer who believes that *code should feel alive*.
+Hi there — I’m a developer who believes that code should feel alive.
 
-I love building interfaces that don’t just function — they **interact**, **respond , and **surprise**.
+I love building interfaces that don’t just function — they interact, respond, and surprise.
 My portfolio is a playground for creativity disguised as a terminal.
 ```
 
@@ -45,7 +45,7 @@ Tools & Cloud: AWS | Linux | Git | OpenCV | TensorFlow | Scikit-learn | PyTorch 
 
 ---
 
-###� Projects
+### Projects
 ```
 > run ./projects.sh
 
@@ -57,7 +57,7 @@ Tools & Cloud: AWS | Linux | Git | OpenCV | TensorFlow | Scikit-learn | PyTorch 
 [6] Portfolio — Old — A relic from the before-times; may it rest in deprecated peace 
 [7] Stampede Detection — Keeping crowds calm with code
 [8] Hybrid Framework for MRI-to-CT Translation — Teaching AI to see beneath the skin   
-[9] Scalable Face Recognition on AWS — Smarter faces, faster recognition, fewer existential crises 
+[9] Scalable Face Recognition on AWS — Smarter faces, faster recognition, fewer existential crises
 [10] Time-Series Forecasting with MLP — Predicting the unpredictable, one neuron at a time
 ```
 
