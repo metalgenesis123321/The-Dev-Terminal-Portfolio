@@ -25,9 +25,9 @@ export default function ExperienceTimeline(){
       date: 'August 2022 – January 2023',
       role: 'Network Associate Intern — Issquared Inc (Hyderabad, India, Remote)',
       details: [
-        'Diagnosed and resolved network connectivity issues by analyzing packet data and traffic patterns, improving stability and reducing downtime by 15% across 30+ enterprise endpoints.',
+        'Diagnosed and resolved network connectivity issues by analyzing packet data and traffic patterns, improving stability.',
         'Addressed hardware malfunctions via device replacements and firmware updates while coordinating with senior engineers to improve network security and performance.',
-        'Executed and validated network configurations, troubleshooting deployment errors, and ensuring smooth rollout of 20+ routers and switches across 5 client sites.'
+        'Executed and validated network configurations, troubleshooting deployment errors.'
       ]
     }
   ]
