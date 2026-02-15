@@ -76,27 +76,11 @@ export default function SkillsWidget() {
         >
           <h3 className="font-semibold mb-3">{group.group}</h3>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
             {group.skills.map((skill) => (
               <div key={skill.name} className="flex flex-col">
                 <div className="flex items-center justify-between">
                   <span className="font-medium">{skill.name}</span>
-                  <span className="text-sm mono opacity-70">{skill.level}%</span>
-                </div>
-
-                <div className="mt-1 h-2 bg-slate-800 rounded overflow-hidden">
-                  {/* Background bar (empty) */}
-                  <div className="relative w-full h-full">
-                    {/* Animated fill */}
-                    <motion.div
-                      className="h-full rounded bg-terminal-accent"
-                      initial={{ width: 0 }}
-                      whileInView={{ width: `${skill.level}%` }}
-                      viewport={{ once: true, amount: 0.3 }}
-                      transition={{ duration: 0.9, ease: 'circOut', delay: 0.08 }}
-                      style={{ width: 0 }}
-                    />
-                  </div>
                 </div>
               </div>
             ))}
